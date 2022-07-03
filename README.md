@@ -1,5 +1,6 @@
 # 深蓝学院《移动机器人运动规划》作业代码
 课程地址：https://www.shenlanxueyuan.com/course/484
+代码仓库：https://github.com/Amos-Chen98/mobile_robots_motion_planning
 
 ## hw1: Quick start
 
