@@ -1,0 +1,17 @@
+TargetTopic:             '/move_base_simple/goal'
+
+ClickHeight:             1.5
+
+InitialVel:              [0.0, 0.0, 0.0]
+
+InitialAcc:              [0.0, 0.0, 0.0]
+
+TerminalVel:             [0.0, 0.0, 0.0]
+
+TerminalAcc:             [0.0, 0.0, 0.0]
+
+AllocationSpeed:         1.0
+
+AllocationAcc:           1.0
+
+MaxPieceNum:             10

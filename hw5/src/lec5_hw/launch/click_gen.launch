@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+   <node name="rviz" pkg="rviz" type="rviz" output="screen"
+    args="-d $(find lec5_hw)/config/click_gen.rviz"> 
+  </node>
+  
+  <node pkg="lec5_hw" type="click_gen" name="click_gen_node" output="screen">
+  <rosparam file="$(find lec5_hw)/config/click_gen.yaml" command="load" />
+  </node>
+
+</launch>
