@@ -101,7 +101,7 @@ void minimumJerkTrajGen(
     M.block(0, 0, s, 2 * s) << F0;
     b.block(0, 0, s, 3) << D0;
 
-    // get Fi, Ei,and Di, use for loop to fill them into M
+    // get Fi, Ei, and Di, use for loop to fill them into M and b
     for (int i = 0; i < dim - 2 * s; i += 2 * s)
     {
         int index = i / (2 * s);
